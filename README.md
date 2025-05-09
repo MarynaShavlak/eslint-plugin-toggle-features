@@ -76,20 +76,22 @@ This rule checks the `toggleFeatures` function calls and ensures that any arrow 
 
 ```js
 toggleFeatures({
-  on: () => {
-    console.log('Feature enabled');
-  },
-  off: () => {
-    console.log('Feature disabled');
-  }
+    name: 'featureName',
+    on: () => {
+      console.log('Feature enabled');
+    },
+    off: () => {
+      console.log('Feature disabled');
+    }
 });
 ```
 
 **Correct**
 ```js
 toggleFeatures({
-  on: () => console.log('Feature enabled'),
-  off: () => console.log('Feature disabled')
+    name: 'featureName',
+    on: () => console.log('Feature enabled'),
+    off: () => console.log('Feature disabled')
 });
 ```
 

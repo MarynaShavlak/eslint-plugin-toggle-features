@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-toggle-features",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "An ESLint plugin to enforce one-line arrow functions in toggleFeatures.",
   "keywords": [
     "eslint",
